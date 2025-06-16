@@ -239,57 +239,63 @@
         *   Run the test against your deployed API.
         *   Use tools like Django Debug Toolbar (if testing locally/staging) or Sentry/APM to identify bottlenecks during the load test.
         *   Attempt to optimize based on the findings (e.g., optimize a slow query, add caching).
+Here are your sections 10 and 11 reformatted to match section 9's structure:
 
 **10. Soft Skills & Collaboration**
-    *   **Version Control Workflows (Git):**
-        *   Mastery of Git: Branching strategies (Git Flow, GitHub Flow).
-        *   Writing clear and semantic commit messages.
-        *   Effective Pull Request (PR) creation and code review participation.
-        *   Resolving merge conflicts.
-    *   **Documentation:**
-        *   Writing clear code comments and docstrings.
-        *   Project documentation: Using Sphinx or MkDocs.
-        *   API documentation: Tools like Swagger/OpenAPI (often auto-generated from DRF using libraries like `drf-yasg` or `drf-spectacular`).
-    *   **Agile Methodologies & Teamwork:**
-        *   Understanding Agile principles and rituals (sprints, stand-ups, backlog grooming, retrospectives).
-        *   Effective communication within a team.
-    *   **Mentorship & Code Reviews:**
-        *   Actively seeking and providing constructive code reviews.
-        *   Learning from others and mentoring when possible.
-        *   Pair-programming sessions.
-    *   **Problem Solving & Debugging:**
-        *   Developing strong analytical and debugging skills.
-        *   Using debuggers effectively (e.g., `pdb`, IDE debuggers).
-    *   **Exercise:** Contribute a small patch or documentation improvement to an open-source Django package on GitHub.
-        *   Find a package you use or are interested in.
-        *   Look for "good first issues" or areas for documentation improvement.
-        *   Follow their contribution guidelines, submit a PR, and engage with maintainer feedback.
+   *   **Version Control Workflows:**
+        *   `Git Flow` and `GitHub Flow`: Mastering branching strategies for team collaboration.
+        *   `Conventional Commits`: Writing clear and semantic commit messages.
+        *   Pull Request best practices: Effective PR creation and code review participation.
+        *   Merge conflict resolution techniques and strategies.
+   *   **Documentation & Communication:**
+        *   Code documentation: Writing clear comments and docstrings.
+        *   Project documentation: `Sphinx`, `MkDocs` for comprehensive project docs.
+        *   API documentation: `drf-yasg`, `drf-spectacular` for auto-generated Swagger/OpenAPI docs.
+        *   Technical writing and communication skills.
+   *   **Agile Development & Teamwork:**
+        *   Agile methodologies: Understanding sprints, stand-ups, backlog grooming, retrospectives.
+        *   Team collaboration tools: Jira, Trello, Slack integration.
+        *   Effective communication within development teams.
+   *   **Code Quality & Mentorship:**
+        *   Code review practices: Providing and receiving constructive feedback.
+        *   Pair programming sessions and knowledge sharing.
+        *   Debugging skills: Using `pdb`, IDE debuggers effectively.
+   *   **Exercise:** Contribute to an open-source Django project.
+        *   Find a Django package you use with "good first issues" on GitHub.
+        *   Fork the repository and create a feature branch.
+        *   Submit a small patch or documentation improvement following their contribution guidelines.
+        *   Engage with maintainer feedback and iterate on your PR.
+        *   Document your contribution process and learnings.
 
-**11. Advanced & Optional Topics**
-    *   **Microservices Architecture:**
-        *   Understanding concepts and trade-offs.
-        *   Communication between services (e.g., REST, gRPC, message queues).
-        *   Service discovery, API gateways.
-        *   Container orchestration with Kubernetes and service mesh like Istio (if going deep).
-    *   **Serverless Backends:**
-        *   Using AWS Lambda with Zappa or Serverless Framework for Django applications.
-        *   Azure Functions, Google Cloud Functions.
-    *   **Advanced Search Engines:**
-        *   Integrating with Elasticsearch or MeiliSearch for complex search requirements.
-        *   Using libraries like `django-haystack` or directly integrating.
-    *   **Graph Databases:**
-        *   Understanding graph database concepts (e.g., Neo4j).
-        *   Using libraries like `django-neomodel` for integration.
-    *   **Machine Learning Integration:**
-        *   Serving ML models (TensorFlow, PyTorch, scikit-learn) via Django APIs.
-    *   **Internationalization (i18n) & Localization (l10n):**
-        *   Making your application available in multiple languages and regions.
-        *   Django's built-in i18n and l10n framework.
-    *   **Advanced Django Features (Deeper Dive):**
-        *   Context processors.
-        *   Custom template tags and filters beyond basics.
-        *   Working with multiple databases in one project.
-    *   **Exercise:** Pick one advanced topic from the list above that interests you. Build a small Proof-of-Concept (POC) service or integrate it into a mini-project, keeping it isolated from your main monolithic applications initially to explore the technology.
+**11. Advanced & Specialized Topics**
+   *   **Microservices Architecture:**
+        *   Service communication: `REST APIs`, `gRPC`, message queues (`Celery`, `RabbitMQ`).
+        *   Service discovery and API gateways (`Kong`, `Zuul`).
+        *   Container orchestration: `Docker Compose`, `Kubernetes` basics.
+        *   Distributed system patterns and trade-offs.
+   *   **Serverless & Cloud Integration:**
+        *   Serverless deployment: `Zappa`, `Serverless Framework` for AWS Lambda.
+        *   Cloud functions: `Azure Functions`, `Google Cloud Functions`.
+        *   Cloud-native Django applications and scaling strategies.
+   *   **Advanced Search & Data:**
+        *   Search engines: `Elasticsearch`, `MeiliSearch` integration.
+        *   Search libraries: `django-haystack` for abstracted search.
+        *   Graph databases: `Neo4j` with `django-neomodel`.
+        *   Full-text search optimization techniques.
+   *   **Machine Learning & AI Integration:**
+        *   ML model serving: Integrating `TensorFlow`, `PyTorch`, `scikit-learn` models.
+        *   API endpoints for ML predictions and data processing.
+        *   Model versioning and deployment strategies.
+   *   **Internationalization & Advanced Django:**
+        *   i18n/l10n: Django's internationalization framework.
+        *   Multiple database configurations and routing.
+        *   Custom template tags, filters, and context processors.
+   *   **Exercise:** Build a specialized microservice POC.
+        *   Choose one advanced topic (e.g., Elasticsearch integration or ML model serving).
+        *   Create a standalone Django service implementing your chosen technology.
+        *   Deploy it separately from your main applications using Docker.
+        *   Document the integration challenges and solutions you encountered.
+        *   Test the service independently and measure its performance impact.
 
 **What's next?**
 1.  **Pick a Capstone Project:** Choose a project idea that genuinely excites you and is slightly more complex than the exercises (e.g., a simplified e-commerce platform, a social media feed clone, an IoT data dashboard, a subscription management service). Apply the layers from this roadmap as you build it out.
@@ -302,4 +308,4 @@
     *   Join community chats: Django Discord server, IRC (#django on Libera.Chat).
     *   Look at source code of well-regarded Django projects or packages.
 4.  **Build a Portfolio:** Showcase your projects on GitHub. A good portfolio is crucial for job hunting.
-5.  
+   
