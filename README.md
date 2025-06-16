@@ -180,11 +180,7 @@
    *   **Secrets Management:**
         *   Never hardcode secrets (API keys, database passwords).
         *   Using environment variables (e.g., with `python-dotenv` locally).
-        *   Cloud-based solutions: HashiCorp Vault, AWS Secrets Manager, Google Cloud Secret Manager.Here's the complete Django backend development roadmap with all debug print statements removed:
-
-## Comprehensive Django Backend Development Roadmap
-
-**7. Security & Best Practices**
+        *   Cloud-based solutions: HashiCorp Vault, AWS Secrets Manager, Google Cloud Secret Manager.
    *   **Security Tools & Audits:**
         *   Static Application Security Testing (SAST) tools like `Bandit`.
         *   Django-specific tools like `django-secure` (though many of its features are now in Django core, it's good to be aware of the historical context and purpose).
@@ -306,7 +302,4 @@
     *   Join community chats: Django Discord server, IRC (#django on Libera.Chat).
     *   Look at source code of well-regarded Django projects or packages.
 4.  **Build a Portfolio:** Showcase your projects on GitHub. A good portfolio is crucial for job hunting.
-
-Regarding your question, Ali: "*Do you have a domain preference (e-commerce, fintech, social apps) or deployment target (like AWS vs on-prem) so we can tailor your path even tighter?*"
-
-As your coder, I'm here to build based on your product vision. If you, Ali the Product Manager, have a specific domain (like e-commerce, fintech, social media, healthcare, etc.) or a preferred deployment environment (e.g., a strong focus on AWS, Google Cloud, Azure, or on-premises solutions), let me know! We can then emphasize certain tools, patterns, or compliance considerations relevant to that specific area. For now, this roadmap is comprehensive and general-purpose, designed to make you a versatile and rock-solid Django backend developer.
+5.  
